@@ -4,7 +4,7 @@ $con = mysqli_connect("localhost","root","","test");
  
  $name = $_POST['name']; 
  $email = $_POST['email'];  
- $pass = $_POST['pass']; 
+ $pass = $_POST['pass'];  
   
  $sel = "select * from users where email='$email'"; 
   
